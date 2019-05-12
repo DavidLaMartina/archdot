@@ -11,20 +11,54 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/background
+~MSle0~/remaps
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1557098969,,"wq"
 :q
-|2,0,1557098757,,"q"
+|2,0,1557675921,,"q"
+:wq
+|2,0,1557673922,,"wq"
 :w
-|2,0,1556975178,,"w"
+|2,0,1557598713,,"w"
 :q!
-|2,0,1556974727,,"q!"
+|2,0,1557598242,,"q!"
+:source ~/.vimrc
+|2,0,1557590335,,"source ~/.vimrc"
+:source .vimrc
+|2,0,1557590331,,"source .vimrc"
+:PlugInstall
+|2,0,1557490772,,"PlugInstall"
+:so ~/.vimrc
+|2,0,1557490768,,"so ~/.vimrc"
+:source ~/.vim/plugged/lightline.vim/
+|2,0,1557490711,,"source ~/.vim/plugged/lightline.vim/"
+:source ~/.vim/plugged/*
+|2,0,1557490698,,"source ~/.vim/plugged/*"
+:source ~/.vim/plugged
+|2,0,1557490686,,"source ~/.vim/plugged"
+:PlugDiff
+|2,0,1557490417,,"PlugDiff"
+:PlugCleanAll
+|2,0,1557490407,,"PlugCleanAll"
+:PlugStatus
+|2,0,1557490294,,"PlugStatus"
+:vi
+|2,0,1557490293,,"vi"
+:PlugClean
+|2,0,1557465952,,"PlugClean"
+:'<,'>q
+|2,0,1557465277,,"'<,'>q"
+:source %
+|2,0,1557465268,,"source %"
+:PlugUpdate
+|2,0,1557465222,,"PlugUpdate"
+:PlugUpgrade
+|2,0,1557463626,,"PlugUpgrade"
+:cear
+|2,0,1557456894,,"cear"
 :set nopaste
 |2,0,1556936180,,"set nopaste"
 :set paste
@@ -33,10 +67,58 @@ $
 |2,0,1556935978,,"q!~"
 
 # Search String History (newest to oldest):
-? @$
-|2,1,1557098569,,"@$"
+?/remaps
+|2,1,1557667619,47,"remaps"
+?/bash
+|2,1,1557667617,47,"bash"
 ?/background
-|2,1,1556975083,47,"background"
+|2,1,1557635937,47,"background"
+?/mod+Shift+c
+|2,1,1557635781,47,"mod+Shift+c"
+?/gap
+|2,1,1557614828,47,"gap"
+?/mod+slash
+|2,1,1557598679,47,"mod+slash"
+?/mod+h
+|2,1,1557598676,47,"mod+h"
+?/mod+apo
+|2,1,1557598673,47,"mod+apo"
+?/horizontal
+|2,1,1557598644,47,"horizontal"
+?/$mod+q
+|2,1,1557598150,47,"$mod+q"
+?/choem
+|2,1,1557597550,47,"choem"
+?/spawPid
+|2,1,1557593363,47,"spawPid"
+?/volume
+|2,1,1557590851,47,"volume"
+??q
+|2,1,1557490256,63,"q"
+?/PlugInstall
+|2,1,1557489938,47,"PlugInstall"
+?/directory
+|2,1,1557489905,47,"directory"
+?/autoload
+|2,1,1557489901,47,"autoload"
+? @$
+|2,1,1557463265,,"@$"
+?/battery
+|2,1,1557291505,47,"battery"
+?/swap
+|2,1,1557290689,47,"swap"
+?/command
+|2,1,1557290684,47,"command"
+?/mem
+|2,1,1557290582,47,"mem"
+?/command=
+|2,1,1557288744,47,"command="
+?/blocks
+|2,1,1557287158,47,"blocks"
+?/bg
+|2,1,1557281841,47,"bg"
+?/tab
+|2,1,1557117329,47,"tab"
 ?/j
 |2,1,1556859869,47,"j"
 ?/external
@@ -56,264 +138,692 @@ $
 
 # Registers:
 "0	LINE	0
-	# vim: filetype=i3
-|3,0,0,1,1,0,1557098569,"# vim: filetype=i3"
-""1	LINE	0
-	.local
-|3,1,1,1,1,0,1557098598,".local"
-"2	LINE	0
-	.mozilla
-|3,0,2,1,1,0,1557098593,".mozilla"
-"3	LINE	0
-	.wget-hsts
-|3,0,3,1,1,0,1557098590,".wget-hsts"
-"4	LINE	0
-	.ssh
-|3,0,4,1,1,0,1557098587,".ssh"
+	    [adsf]
+|3,0,0,1,1,0,1557491085,"    [adsf]"
+"1	LINE	0
+	#!/bin/bash
+|3,0,1,1,1,0,1557666476,"#!/bin/bash"
+"2	CHAR	0
+	# #---Starting External Scripts---# #
+	# transparency enabled by xcompmgr
+	exec --no-startup-id xcompmgr
+	# set background
+	exec --no-startup-id xwallpaper --zoom ~/.config/wall.png
+	
+|3,0,2,0,6,0,1557598567,"# #---Starting External Scripts---# #","# transparency enabled by xcompmgr","exec --no-startup-id xcompmgr","# set background","exec --no-startup-id xwallpaper --zoom ~/.config/wall.png",""
+"3	BLOCK	0
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+|3,0,3,2,9,0,1557590324," "," "," "," "," "," "," "," "," "
+"4	BLOCK	0
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+|3,0,4,2,10,0,1557590319,"\"","\"","\"","\"","\"","\"","\"","\"","\"","\""
 "5	LINE	0
-	.python_history
-|3,0,5,1,1,0,1557098564,".python_history"
+	
+|3,0,5,1,1,0,1557588935,""
 "6	LINE	0
-	test
-|3,0,6,1,1,0,1557098557,"test"
-"7	LINE	0
-	README.md
-|3,0,7,1,1,0,1557098553,"README.md"
+	xrandr --output HDMI-2 --auto --s
+|3,0,6,1,1,0,1557588911,"xrandr --output HDMI-2 --auto --s"
+"7	CHAR	0
+	{
+	}
+|3,0,7,0,2,0,1557491085,"{","}"
 "8	LINE	0
-	Downloads
-|3,0,8,1,1,0,1557098550,"Downloads"
+	    printf("Do something\n");
+	
+	
+	
+|3,0,8,1,4,0,1557491085,"    printf(\"Do something\\n\");","","",""
 "9	LINE	0
-	..
-|3,0,9,1,1,0,1557098547,".."
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1556938126,"#"
+	    [adsf]
+|3,0,9,1,1,0,1557491012,"    [adsf]"
+""-	CHAR	0
+	bash 
+|3,1,36,0,1,0,1557666695,"bash "
 
 # File marks:
-'0  4  0  ~/.gitignore
-|4,48,4,0,1557098969,"~/.gitignore"
-'1  1  0  ~/.gitignore
-|4,49,1,0,1557098806,"~/.gitignore"
-'2  1  0  ~/.gitignore
-|4,50,1,0,1557098806,"~/.gitignore"
-'3  1  0  ~/.git/index
-|4,51,1,0,1557098757,"~/.git/index"
-'4  1  0  ~/.git/config
-|4,52,1,0,1557098750,"~/.git/config"
-'5  1  0  ~/.gitignore
-|4,53,1,0,1557098619,"~/.gitignore"
-'6  1  0  ~/.gitignore
-|4,54,1,0,1557098619,"~/.gitignore"
-'7  1  0  ~/.ssh/known_hosts
-|4,55,1,0,1557098584,"~/.ssh/known_hosts"
-'8  8  0  ~/.ssh
-|4,56,8,0,1557098570,"~/.ssh"
-'9  4  0  ~/.gitignore
-|4,57,4,0,1557098508,"~/.gitignore"
+'0  1  0  ~/README.md
+|4,48,1,0,1557675921,"~/README.md"
+'1  4  29  ~/.scripts/display-left
+|4,49,4,29,1557673922,"~/.scripts/display-left"
+'2  1  0  ~/.scripts/display-disconnect
+|4,50,1,0,1557673823,"~/.scripts/display-disconnect"
+'3  4  0  ~/.scripts/display-left
+|4,51,4,0,1557673741,"~/.scripts/display-left"
+'4  173  24  ~/.config/i3/config
+|4,52,173,24,1557667627,"~/.config/i3/config"
+'5  1  0  /usr/bin/i3-dump-log
+|4,53,1,0,1557666806,"/usr/bin/i3-dump-log"
+'6  173  21  ~/.config/i3/config
+|4,54,173,21,1557666697,"~/.config/i3/config"
+'7  2  29  ~/.xinitrc
+|4,55,2,29,1557666665,"~/.xinitrc"
+'8  173  25  ~/.config/i3/config
+|4,56,173,25,1557666623,"~/.config/i3/config"
+'9  173  25  ~/.config/i3/config
+|4,57,173,25,1557666623,"~/.config/i3/config"
 
 # Jumplist (newest first):
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098969,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1557098960,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1557098806,"~/.gitignore"
--'  1  0  ~/.git/index
-|4,39,1,0,1557098757,"~/.git/index"
--'  1  0  ~/.git/index
-|4,39,1,0,1557098757,"~/.git/index"
--'  1  0  ~/.git/index
-|4,39,1,0,1557098757,"~/.git/index"
--'  1  0  ~/.git/index
-|4,39,1,0,1557098757,"~/.git/index"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1557098750,"~/.git/config"
--'  1  0  ~/.gitignore
-|4,39,1,0,1557098619,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1557098619,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1557098619,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1557098619,"~/.gitignore"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1557098584,"~/.ssh/known_hosts"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  8  0  ~/.ssh
-|4,39,8,0,1557098570,"~/.ssh"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098542,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098542,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098542,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098542,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098542,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  4  0  ~/.gitignore
-|4,39,4,0,1557098508,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
--'  3  9  ~/.gitignore
-|4,39,3,9,1557098504,"~/.gitignore"
+-'  1  0  ~/README.md
+|4,39,1,0,1557675921,"~/README.md"
+-'  4  29  ~/.scripts/display-left
+|4,39,4,29,1557673922,"~/.scripts/display-left"
+-'  4  29  ~/.scripts/display-left
+|4,39,4,29,1557673922,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-left
+|4,39,1,0,1557673918,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-left
+|4,39,1,0,1557673918,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-disconnect
+|4,39,1,0,1557673823,"~/.scripts/display-disconnect"
+-'  1  0  ~/.scripts/display-disconnect
+|4,39,1,0,1557673823,"~/.scripts/display-disconnect"
+-'  1  0  ~/.scripts/display-disconnect
+|4,39,1,0,1557673823,"~/.scripts/display-disconnect"
+-'  1  0  ~/.scripts/display-disconnect
+|4,39,1,0,1557673823,"~/.scripts/display-disconnect"
+-'  4  0  ~/.scripts/display-left
+|4,39,4,0,1557673741,"~/.scripts/display-left"
+-'  4  0  ~/.scripts/display-left
+|4,39,4,0,1557673741,"~/.scripts/display-left"
+-'  4  0  ~/.scripts/display-left
+|4,39,4,0,1557673741,"~/.scripts/display-left"
+-'  4  0  ~/.scripts/display-left
+|4,39,4,0,1557673741,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-left
+|4,39,1,0,1557673735,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-left
+|4,39,1,0,1557673735,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-left
+|4,39,1,0,1557673735,"~/.scripts/display-left"
+-'  1  0  ~/.scripts/display-left
+|4,39,1,0,1557673735,"~/.scripts/display-left"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  173  24  ~/.config/i3/config
+|4,39,173,24,1557667627,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  3  0  ~/.config/i3/config
+|4,39,3,0,1557667619,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1557667616,"~/.config/i3/config"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  1  0  /usr/bin/i3-dump-log
+|4,39,1,0,1557666806,"/usr/bin/i3-dump-log"
+-'  173  21  ~/.config/i3/config
+|4,39,173,21,1557666697,"~/.config/i3/config"
+-'  173  21  ~/.config/i3/config
+|4,39,173,21,1557666697,"~/.config/i3/config"
+-'  173  21  ~/.config/i3/config
+|4,39,173,21,1557666697,"~/.config/i3/config"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1557675920	0
+	"	1	0
+
+> ~/.scripts/display-left
+	*	1557673922	0
+	"	4	29
+	^	4	30
+	.	4	29
+	+	3	22
+	+	1	11
+	+	3	21
+	+	3	22
+	+	4	38
+	+	5	0
+	+	4	29
+
+> ~/.scripts/display-disconnect
+	*	1557673822	0
+	"	1	0
+	^	4	13
+	.	4	12
+	+	4	12
+
+> ~/.config/i3/config
+	*	1557667627	0
+	"	173	24
+	^	173	25
+	.	173	24
+	+	33	47
+	+	34	26
+	+	179	30
+	+	178	20
+	+	182	13
+	+	178	19
+	+	166	29
+	+	166	0
+	+	166	33
+	+	166	56
+	+	1	0
+	+	2	0
+	+	36	48
+	+	37	12
+	+	175	0
+	+	167	0
+	+	173	26
+	+	73	0
+	+	71	22
+	+	74	17
+	+	47	13
+	+	48	13
+	+	49	13
+	+	50	13
+	+	173	25
+	+	1	0
+	+	173	21
+	+	169	21
+	+	173	24
+
+> /usr/bin/i3-dump-log
+	*	1557666804	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1557666656	0
+	"	2	29
+	^	2	30
+	.	2	29
+	+	1	8
+	+	2	29
+
+> ~/.config/i3/conf
+	*	1557666425	0
+	"	1	0
+
+> ~/.scripts/remaps
+	*	1557666380	0
+	"	1	0
+	^	1	10
+	.	1	10
+	+	3	37
+	+	8	53
+	+	10	34
+	+	1	10
+
+> /etc/i3/config
+	*	1557614830	0
+	"	17	0
+
+> ~/NERD_tree_1
+	*	1557614818	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1557604392	0
+	"	1	0
+	^	17	16
+	.	7	0
+	+	1	11
+	+	1	8
+	+	1	0
+	+	6	25
+	+	6	14
+	+	6	26
+	+	6	27
+	+	1	0
+	+	1	16
+	+	6	82
+	+	6	0
+	+	1	0
+	+	8	0
+	+	6	0
+	+	8	0
+	+	6	0
+	+	1	0
+	+	6	0
+	+	1	0
+	+	1	16
+	+	7	1
+	+	8	1
+	+	1	0
+	+	7	0
+	+	8	0
+	+	10	0
+	+	6	0
+	+	5	0
+	+	7	0
+	+	1	33
+	+	2	1
+	+	3	1
+	+	4	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	7	1
+	+	1	0
+	+	1	9
+	+	1	0
+	+	2	0
+	+	1	0
+	+	17	15
+	+	7	0
+
+> ~/trythis
+	*	1557601542	0
+	"	1	0
+
+> ~/.Xdefaults
+	*	1557598309	0
+	"	5	20
+	^	5	21
+	.	5	20
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	8	16
+	+	18	17
+	+	9	0
+	+	8	2
+	+	5	20
+	+	8	2
+	+	9	0
+	+	5	20
+
+> ~/test/wait.c
+	*	1557598301	0
+	"	21	0
+	^	16	50
+	.	16	49
+	+	22	0
+	+	7	14
+	+	16	49
+
+> ~/try
+	*	1557598294	0
+	"	1	0
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/remaps
+	*	1557598200	0
+	"	1	0
+
+> ~/.scripts/try
+	*	1557597937	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /etc/fonts/fonts.conf
+	*	1557597553	0
+	"	94	0
+
+> /etc/fonts/fonts.confg
+	*	1557597544	0
+	"	1	0
+
+> ~/.bash_profile
+	*	1557597205	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	5	33
+	+	7	51
+	+	8	71
+	+	10	0
+	+	9	0
+	+	11	0
+
+> ~/.config/i3blocks/config
+	*	1557591084	0
+	"	41	8
+	^	108	10
+	.	108	9
+	+	104	19
+	+	108	9
+	+	105	1
+	+	107	0
+	+	106	0
+	+	107	9
+	+	104	0
+	+	105	1
+	+	107	9
+	+	104	8
+	+	27	0
+	+	104	14
+	+	105	0
+	+	104	25
+	+	105	1
+	+	107	9
+	+	104	1
+	+	104	0
+	+	103	0
+	+	113	0
+	+	79	1
+	+	102	0
+	+	107	1
+	+	105	0
+	+	106	0
+	+	105	1
+	+	104	1
+	+	108	9
+
+> ~/.scripts/mirror
+	*	1557589921	0
+	"	1	0
+	.	5	0
+	+	1	11
+	+	5	9
+	+	4	91
+	+	5	0
+
+> ~/.bashrc
+	*	1557589200	0
+	"	14	30
+	^	14	31
+	.	14	30
+	+	3	25
+	+	3	0
+	+	3	1
+	+	4	0
+	+	7	0
+	+	4	0
+	+	16	0
+	+	4	0
+	+	4	192
+	+	4	0
+	+	6	9
+	+	6	0
+	+	6	6
+	+	11	0
+	+	6	0
+	+	4	0
+	+	15	0
+	+	13	40
+	+	14	30
+
+> ~/test/omp.c
+	*	1557491092	0
+	"	20	4
+	^	20	4
+	.	20	4
+	+	14	0
+	+	4	15
+	+	5	0
+	+	7	0
+	+	14	0
+	+	13	10
+	+	3	15
+	+	12	61
+	+	13	0
+	+	11	20
+	+	12	0
+	+	18	0
+	+	19	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	11	0
+	+	19	10
+	+	20	4
+
+> /etc/vimrc
+	*	1557490560	0
+	"	11	1
+	^	11	2
+	.	11	1
+	+	11	1
+
+> ~/.vim/autoload/plug.vim
+	*	1557490521	0
+	"	501	8
+	.	47	0
+	+	47	0
+
+> ~/.,vimrc
+	*	1557489884	0
+	"	1	0
+
+> ~/.vim/autoload/.vimrc
+	*	1557489857	0
+	"	1	0
+
+> ~/.vim/autoload/plug.vom
+	*	1557465496	0
+	"	1	0
+
+> ~/asdf
+	*	1557465153	0
+	"	1	0
+
+> ~/.vim/.plug
+	*	1557465044	0
+	"	1	0
+
+> ~/.vim/.vimrc
+	*	1557464650	0
+	"	1	0
+
+> /usr/share/vim-plug/vimrc.sample
+	*	1557464395	0
+	"	20	0
+
+> ~/.config/NERD_tree_1
+	*	1557464379	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/plugged/.vimrc
+	*	1557463810	0
+	"	1	0
+
+> ~/test.c
+	*	1557463692	0
+	"	1	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/asd
+	*	1557463648	0
+	"	1	0
+
+> /usr/share/vim/vimfiles/archlinux.vim
+	*	1557404914	0
+	"	11	0
+
+> ~/test/.vimrc
+	*	1557404798	0
+	"	1	0
+
+> /usr/lib/i3blocks/battery
+	*	1557403990	0
+	"	1	0
+
+> /usr/include/alsa/asoundef.h
+	*	1557318375	0
+	"	1	0
+
+> /etc/i3blocks.conf
+	*	1557290878	0
+	"	112	9
+
+> /usr/lib/i3blocks/.bashrc
+	*	1557288647	0
+	"	1	0
+
+> ~/.Xauthority
+	*	1557285192	0
+	"	1	0
+
+> ~/.viminfo
+	*	1557117117	0
+	"	373	1
 
 > ~/.gitignore
 	*	1557098968	0
@@ -352,87 +862,13 @@ $
 	*	1557098186	0
 	"	1	0
 
-> /etc/vimrc
-	*	1557097951	0
-	"	1	0
-
-> /usr/share/vim/vimfiles/archlinux.vim
-	*	1557097927	0
-	"	1	0
-
-> ~/test/omp.c
-	*	1557097897	0
-	"	13	25
-	^	12	19
-	.	13	0
-	+	15	0
-	+	4	15
-	+	5	0
-	+	7	0
-	+	15	0
-	+	14	10
-	+	3	15
-	+	13	61
-	+	14	0
-	+	12	20
-	+	13	0
-
 > ~/test/omp
 	*	1557097891	0
 	"	1	0
 
-> ~/.config/i3/config
-	*	1556975196	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	33	47
-	+	34	26
-	+	177	30
-	+	176	20
-	+	180	13
-	+	176	19
-	+	168	29
-	+	172	0
-	+	168	33
-	+	171	56
-	+	1	0
-	+	2	0
-
-> ~/.bash_profile
-	*	1556974936	0
-	"	8	68
-	^	8	69
-	.	8	68
-	+	5	33
-	+	7	51
-	+	8	68
-
 > ~/.inputrc
 	*	1556974746	0
 	"	19	5
-
-> ~/.bashrc
-	*	1556974733	0
-	"	14	25
-	^	11	1
-	.	4	0
-	+	3	25
-	+	3	0
-	+	3	1
-	+	4	0
-	+	7	0
-	+	4	0
-	+	15	0
-	+	4	0
-	+	4	192
-	+	4	0
-	+	6	9
-	+	6	0
-	+	6	6
-	+	11	0
-	+	6	0
-	+	4	0
 
 > ~/.inputr
 	*	1556974499	0
@@ -441,13 +877,6 @@ $
 > /etc/inputrc
 	*	1556974475	0
 	"	1	0
-
-> ~/.xinitrc
-	*	1556947313	0
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	8
 
 > ~/test/omp.,c
 	*	1556945146	0
@@ -483,23 +912,6 @@ $
 	*	1556937702	0
 	"	1	0
 
-> ~/.Xdefaults
-	*	1556935650	0
-	"	5	0
-	^	8	3
-	.	9	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	8	16
-	+	18	17
-	+	9	0
-	+	8	2
-	+	5	20
-	+	8	2
-	+	9	0
-
 > ~/.bash_
 	*	1556935627	0
 	"	1	0
@@ -517,10 +929,6 @@ $
 
 > ~/.Xdefaults.1
 	*	1556858610	0
-	"	1	0
-
-> ~/.Xauthority
-	*	1556858483	0
 	"	1	0
 
 > /etc/udev/udev.conf
@@ -568,10 +976,3 @@ $
 	.	2	1
 	+	1	3
 	+	2	1
-
-> ~/test.c
-	*	1556600113	0
-	"	6	0
-	^	6	1
-	.	6	0
-	+	6	0

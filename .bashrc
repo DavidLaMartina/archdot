@@ -11,5 +11,6 @@ alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
+export PATH="~/.scripts/:$PATH"
 export MAKEFLAGS="-j5 -l4"
 
